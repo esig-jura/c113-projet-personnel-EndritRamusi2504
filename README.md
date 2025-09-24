@@ -4,8 +4,8 @@
 ## 1. 🎨 Présentation du projet
 
 ### Concept
-- Thème choisi : …
-- Public cible : …
+- Thème choisi : Site internet d'in coiffeur
+- Public cible : Les jeunes et les hommes qui veulent se couper les cheveux , 13 à 40 ans
 - Objectifs du site : …
 
 ### Fonctionnalités prévues
@@ -35,7 +35,7 @@
 ## 3. 🛠️ Outils et méthodologie
 
 ### Environnement de travail
-- IDE : …
+- IDE : WebStorme 
 - Navigateurs de test : …
 - Versioning : Git + GitHub
 - Validation : Validator W3C, PageSpeed Insights, Wave
