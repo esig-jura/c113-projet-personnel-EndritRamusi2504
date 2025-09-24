@@ -6,10 +6,10 @@
 ### Concept
 - Thème choisi : Site internet d'in coiffeur
 - Public cible : Les jeunes et les hommes qui veulent se couper les cheveux , 13 à 40 ans
-- Objectifs du site : …
+- Objectifs du site : Donner plus de visibilité au coiffeur, une image plus professionnelle.
 
 ### Fonctionnalités prévues
-- Navigation : …
+- Navigation : 
 - Sections principales : …
 - Contenus proposés : …
 
@@ -18,9 +18,9 @@
 ## 2. 📚 Parcours d'apprentissage
 
 ### Ressources utilisées
-- Plateformes (OpenClassrooms, MDN, freeCodeCamp, etc.)
-- Vidéos / tutoriels suivis
-- Articles ou documentations consultés
+- Plateformes (OpenClassrooms, MDN, freeCodeCamp, etc.) : openclasseroom
+- Vidéos / tutoriels suivis : youtube
+- Articles ou documentations consultés : 
 
 ### Progression
 - Semaine 4 : …
@@ -36,7 +36,7 @@
 
 ### Environnement de travail
 - IDE : WebStorme 
-- Navigateurs de test : …
+- Navigateurs de test : 
 - Versioning : Git + GitHub
 - Validation : Validator W3C, PageSpeed Insights, Wave
 
