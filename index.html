@@ -1,10 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Barbershop</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>2Wavy Cuts — Barber Shop</title>
+    <meta name="description" content="Barber à Bienne : fades précis, line-ups, beard trim & razor shave. Réservation Instagram ou WhatsApp." />
+    <meta name="theme-color" content="#0f0f10" />
+
+    <!-- Polices locales (mets les .woff2 dans /assets/fonts/) -->
+    <link rel="preload" href="/assets/fonts/Inter-Variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-<h1>2waycut</h1>
+<!-- Accès clavier direct au contenu -->
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header>
+    <div class="container nav">
+        <a class="logo" href="#top" aria-label="Accueil 2Wavy Cuts">
+            <div class="logo-badge" aria-hidden="true">2W</div>
+            <strong>2Wavy Cuts</strong>
+        </a>
+
+        <nav class="nav-links" aria-label="Navigation principale">
+            <a href="#services">Services</a>
+            <a href="#prices">Tarifs</a>
+            <a href="#gallery">Galerie</a>
+            <a href="#contact">Contact</a>
+            <a class="badge" href="tel:+41764795001" aria-label="Appeler le 076 479 50 01">📞 076 479 50 01</a>
+            <a class="btn" href="https://www.instagram.com/2wavy.cuts/" target="_blank" rel="noopener">Réserver sur Instagram</a>
+        </nav>
+    </div>
+
+    <div class="hero" id="top" role="banner">
+        <div class="container hero-wrap">
+            <div>
+                <p class="eyebrow">BARBER — BIENNE</p>
+                <!-- Un seul H1 sur la page -->
+                <h1>Ancien basketteur pro en Suisse — aujourd’hui barber indépendant à Bienne.</h1>
+                <p class="sub">
+                    Walk-ins bienvenus — DM pour réserver.
+                </p>
+                <div class="cta">
+                    <a class="btn primary" href="https://www.instagram.com/2wavy.cuts/" target="_blank" rel="noopener" aria-label="Réserver via Instagram">Book now</a>
+                    <a class="badge" href="#prices">Voir les tarifs</a>
+                </div>
+            </div>
+
+            <figure class="hero-img">
+                <img src="./img/olo.jpeg" alt= width="500" height="350" />
+            </figure>
+        </div>
+    </div>
+</header>
+
+<main id="contenu">
+    <section id="services" aria-labelledby="services-titre">
+        <div class="container">
+            <h2 id="services-titre" class="title">À propos & services</h2>
+            <p class="subtle">Fresh fades, Clean beards, Sharp lines.Fades précis, line-ups au millimètre, beard trim & razor shave.</p>
+
+            <div class="grid grid-3">
+                <article class="card">
+                    <p class="chip">Haircut / Fade</p>
+                    <h3>Skin / Low / Mid / High</h3>
+                    <p class="subtle">Taper, burst, crop, afro, waves.</p>
+                    <p><strong>20.–</strong></p>
+                </article>
+
+                <article class="card">
+                    <p class="chip">Beard</p>
+                    <h3>Trim & Contours</h3>
+                    <p class="subtle">Dégradé de barbe, contours, finition rasoir.</p>
+                    <p><strong>15.–</strong></p>
+                </article>
+
+                <article class="card">
+                    <p class="chip">Pack</p>
+                    <h3>Haircut + Beard</h3>
+                    <p class="subtle">Combo avantageux.</p>
+                    <p><strong>30.–</strong></p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices" aria-labelledby="prices-titre">
+        <div class="container">
+            <h2 id="prices-titre" class="title">Tarifs</h2>
+
+            <ul class="price-list" role="list">
+                <li class="price-row"><span>Haircut / Fade</span><em aria-hidden="true">–</em><strong>20.–</strong></li>
+                <li class="price-row"><span>Haircut + Beard Trim</span><em aria-hidden="true">–</em><strong>30.–</strong></li>
+                <li class="price-row"><span>Beard</span><em aria-hidden="true">–</em><strong>15.–</strong></li>
+                <li class="price-row"><span>Hair Line</span><em aria-hidden="true">–</em><strong>5.–</strong></li>
+                <li class="price-row"><span>Kids Haircut</span><em aria-hidden="true">–</em><strong>15.–</strong></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery" aria-labelledby="gallery-titre">
+        <div class="container">
+            <h2 id="gallery-titre" class="title">Galerie</h2>
+
+            <div class="gallery" role="list">
+                <img src="./img/Image.jpeg" alt="Coupe / fade 1" loading="lazy">
+                <img src="./img/Image%20(1).jpeg" alt="Coupe / fade 2" loading="lazy">
+                <img src="./img/Image%20(2).jpeg" alt="Barbe 1" loading="lazy>
+                </div>
+        </div>
+    </section>
+
+    <section id="reviews" aria-labelledby="reviews-titre">
+        <div class="container">
+            <h2 id="reviews-titre" class="title">Avis</h2>
+            <div class="reviews">
+                <article class="card">
+                    <strong aria-label="5 étoiles">★★★★★</strong>
+                    <p>« Fade propre, super rapide. »</p>
+                    <p class="subtle">— Client</p>
+                </article>
+                <article class="card">
+                    <strong aria-label="5 étoiles">★★★★★</strong>
+                    <p>« Contours nickel, je recommande. »</p>
+                    <p class="subtle">— Client</p>
+                </article>
+                <article class="card">
+                    <strong aria-label="4 étoiles">★★★★☆</strong>
+                    <p>« Razor shave 🔥, prix ok. »</p>
+                    <p class="subtle">— Client</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-titre">
+        <div class="container contact">
+            <div>
+                <h2 id="contact-titre" class="title">Contact & horaires</h2>
+                <ul class="info">
+                    <li>📍 Rue du Manège 5, 2502 Bienne</li>
+                    <li>📞 <a href="tel:+41764795001">076 479 50 01</a></li>
+                    <li>💬 <a href="https://wa.me/41764795001" target="_blank" rel="noopener">WhatsApp</a></li>
+                    <li>📸 <a href="https://www.instagram.com/2wavy.cuts?igsh=MWl5ZWZqbDI5Njgxcg==" target="_blank" rel="noopener">Instagram</a></li>
+                    <li>🕒 Mar–Dim 08:00–21:00 • Lun fermé</li>
+                </ul>
+            </div>
+
+            <div class="map-wrap" aria-hidden="true">
+                <!-- Option : intégrer une iframe Google Maps -->
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script>
+    // Année auto
+    document.getElementById('annee').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
