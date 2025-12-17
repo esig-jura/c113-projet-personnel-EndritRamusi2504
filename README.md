@@ -5,30 +5,39 @@
 
 ### Concept
 - Thème choisi : Site internet d'in coiffeur
-- Public cible : Les jeunes et les hommes qui veulent se couper les cheveux , 13 à 40 ans
-- Objectifs du site : Donner plus de visibilité au coiffeur, une image plus professionnelle.
+- Public cible : Les jeunes et les hommes qui veulent se couper les cheveux , 10 à 35 ans
+  - Objectifs du site : Donner plus de visibilité au barber
+                        Proposer une image moderne et professionnelle
+                        Présenter les services, tarifs et informations pratiques
+                        Faciliter la prise de contact avec les client
 
 ### Fonctionnalités prévues
-- Navigation : 
-- Sections principales : …
-- Contenus proposés : …
+- Navigation : Menu clair et simple (Accueil, Services, Tarifs, À propos, Contact)
+  - Sections principales :  Accueil avec présentation du barber
+                            Services et types de coupes
+                            Tarifs
+                            Galerie / visuels
+                            Contact (coordonnées et horaires)
+    - Contenus proposés : Textes descriptifs
+                          Photo de client
+                          Informations pour les clients
 
 ---
 
 ## 2. 📚 Parcours d'apprentissage
 
 ### Ressources utilisées
-- Plateformes (OpenClassrooms, MDN, freeCodeCamp, etc.) : openclasseroom
-- Vidéos / tutoriels suivis : youtube
-- Articles ou documentations consultés : 
+- Plateformes (OpenClassrooms, MDN, freeCodeCamp, etc.) : openclasserooms
+- Vidéos / tutoriels suivis : youtube vidéos tuto
+- Articles ou documentations consultés : documentation google, ia
 
 ### Progression
-- Semaine 4 : …
-- Semaine 6 : …
-- Semaine 8 : …
-- Semaine 10 : …
-- Semaine 11 : …
-- Semaine 12 : …
+- Semaine 4 : Découverte du projet et définition du concept
+- Semaine 6 : Structure HTML du site
+- Semaine 8 : Correction HTML
+- Semaine 10 : CSS
+- Semaine 11 : Design
+- Semaine 12 : Tests, corrections et finalisation du projet
 
 ---
 
@@ -36,7 +45,7 @@
 
 ### Environnement de travail
 - IDE : WebStorme 
-- Navigateurs de test : 
+- Navigateurs de test : Google Chrome, Firefox
 - Versioning : Git + GitHub
 - Validation : Validator W3C, PageSpeed Insights, Wave
 
@@ -47,32 +56,31 @@
 
 ### Choix de design
 - Palette de couleurs :  
-  - Couleur principale : `#XXXXXX` – …
-  - Couleur secondaire : `#XXXXXX` – …
-  - Couleur d’accent : `#XXXXXX` – …
-  - Couleur de texte : `#XXXXXX` – …
-  - Couleur de fond : `#XXXXXX` – …
+  - Couleur principale : Noir – sobre
+  - Couleur secondaire : Bleu et Blanc – contraste
+  - Couleur de texte : Blanc 
+  - Couleur de fond : Noir , pour une image simple et pro  
 - Lien vers palette générée : …
 - Typographies :  
-  - Titres : … (fichiers dans `/fonts`)  
-  - Texte : … (fichiers dans `/fonts`)  
+  - Titres : CSS 
+  - Texte : CSS
 
 ---
 
 ## 4. ✅ Tests et validation
 
 ### Validation technique
-- HTML Validator : résultat …
-- CSS Validator : résultat …
+- HTML Validator : conforme
+- CSS Validator : conforme 
 - PageSpeed Insights :  
-  - Performance : …/100  
-  - Accessibilité : …/100  
-  - Bonnes pratiques : …/100  
-  - SEO : …/100  
+  - Performance : correcte
+  - Accessibilité : bonne 
+  - Bonnes pratiques : respectées 
+  - SEO : satisfait
 
 ### Compatibilité
-- Navigateurs testés : Chrome …, Firefox …, Safari …
-- Appareils testés : mobile, tablette, desktop
+- Navigateurs testés : Chrome, Firefox
+- Appareils testés : ordinateur
 
 ### Accessibilité
 - Attributs alt : ✅
@@ -86,17 +94,19 @@
 ## 5. 🤖 Usage de l’IA (si applicable)
 
 ### IA utilisée
-- Nom et version : …
-- Contexte : génération de code / debug / recherche / rédaction
+- Nom et version : ChatGPT
+- Contexte : génération de code / debug / recherche 
 
 ### Utilisation détaillée
-- Contenu généré avec l’IA : …
-- Explication et adaptation personnelle du code généré
+- Contenu généré avec l’IA : Génération d’exemples de code adaptés ensuite personnellement
+                             Reformulation et amélioration du contenu textuel
+                             Aide méthodologique et pédagogique
+                             Explication et adaptation personnelle du code généré
 
 ### Proportion
-- Structure HTML : …% personnel / …% aidé
-- CSS : …% personnel / …% aidé
-- Responsive : …% personnel
+- Structure HTML : 70% personnel / 30% aidé
+- CSS : 70% personnel / 30% aidé
+- Responsive : personnel
 - Tests et validation : 100% personnel
 
 ---
@@ -104,21 +114,23 @@
 ## 6. 🎯 Bilan personnel
 
 ### Ce que j’ai appris
-- Compétences techniques acquises  
-- Découvertes surprenantes  
-- Concepts difficiles maîtrisés  
+- Structurer un site web avec HTML
+- Mettre en forme une page avec CSS
+- Concevoir un site responsive
+- Tester et valider un site web
 
 ### Difficultés rencontrées
-- Problèmes techniques et solutions trouvées  
-- Moments de blocage et dépassement  
-- Aide reçue et sources  
+- Gestion du responsive design
+- Positionnement des éléments en CSS
+- Choix des couleurs et du design
 
 ### Réussites et fiertés
-- Aspects du projet dont je suis fier  
-- Progrès constatés depuis le début  
-- Envies de développement futur  
+- Avoir un site fonctionnel et cohérent
+- Un design professionnel adapté à un barber
+- Une meilleure compréhension du développement web
 
 ### Améliorations possibles
-- Ce que j’ajouterais avec plus de temps  
-- Fonctionnalités bonus envisagées  
-- Compétences à approfondir  
+- Ajout d’un formulaire de réservation en ligne
+- Animations CSS ou JavaScript
+- Intégration d’une carte Google Maps
+- Amélioration du référencement (SEO)
