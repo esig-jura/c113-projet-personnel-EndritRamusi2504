@@ -6,21 +6,24 @@
 ### Concept
 - Thème choisi : Site internet d'in coiffeur
 - Public cible : Les jeunes et les hommes qui veulent se couper les cheveux , 10 à 35 ans
-  - Objectifs du site : Donner plus de visibilité au barber
-                        Proposer une image moderne et professionnelle
-                        Présenter les services, tarifs et informations pratiques
-                        Faciliter la prise de contact avec les client
+  - Objectifs du site : 
+  - Donner plus de visibilité au barber 
+  - Proposer une image moderne et professionnelle 
+  - Présenter les services, tarifs et informations pratiques 
+  - Faciliter la prise de contact avec les client
 
 ### Fonctionnalités prévues
 - Navigation : Menu clair et simple (Accueil, Services, Tarifs, À propos, Contact)
-  - Sections principales :  Accueil avec présentation du barber
-                            Services et types de coupes
-                            Tarifs
-                            Galerie / visuels
-                            Contact (coordonnées et horaires)
-    - Contenus proposés : Textes descriptifs
-                          Photo de client
-                          Informations pour les clients
+  - Sections principales :  
+  - Accueil avec présentation du barber 
+  - Services et types de coupes
+  - Tarifs 
+  - Galerie / visuels 
+  - Contact (coordonnées et horaires)
+    - Contenus proposés : 
+    - Textes descriptifs 
+    - Photo de client
+    - Informations pour les clients
 
 ---
 
@@ -83,8 +86,8 @@
 - Appareils testés : ordinateur
 
 ### Accessibilité
-- Attributs alt : ✅
-- Hiérarchie des titres : ✅
+- Attributs alt : fait
+- Hiérarchie des titres : fait
 - Contraste couleurs : conforme WCAG
 - Navigation clavier : testée
 - Zoom 200% : lisible
@@ -95,18 +98,22 @@
 
 ### IA utilisée
 - Nom et version : ChatGPT
-- Contexte : génération de code / debug / recherche 
+- Contexte : 
+- Aide à la compréhension du HTML et du CSS
+Débogage et explication du code
+Reformulation et amélioration des contenus textuels 
 
 ### Utilisation détaillée
-- Contenu généré avec l’IA : Génération d’exemples de code adaptés ensuite personnellement
-                             Reformulation et amélioration du contenu textuel
-                             Aide méthodologique et pédagogique
-                             Explication et adaptation personnelle du code généré
+- Contenu généré avec l’IA : 
+- Génération d’exemples de code adaptés ensuite personnellement 
+- Reformulation et amélioration du contenu textuel 
+- Aide méthodologique et pédagogique
+- Explication et adaptation personnelle du code généré
 
 ### Proportion
 - Structure HTML : 70% personnel / 30% aidé
 - CSS : 70% personnel / 30% aidé
-- Responsive : personnel
+- Responsive : 100% personnel
 - Tests et validation : 100% personnel
 
 ---
