@@ -8,15 +8,13 @@
     <meta name="description" content="Barber à Bienne : fades précis, line-ups, beard trim & razor shave. Réservation Instagram ou WhatsApp." />
     <meta name="theme-color" content="#0f0f10" />
 
-    <!-- Polices locales (mets les .woff2 dans /assets/fonts/) -->
-    <link rel="preload" href="/assets/fonts/Inter-Variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-<!-- Accès clavier direct au contenu -->
+
 <a class="skip-link" href="#contenu">Aller au contenu</a>
 
-<header>
+<header id="top">
     <div class="container nav">
         <a class="logo" href="#top" aria-label="Accueil 2Wavy Cuts">
             <div class="logo-badge" aria-hidden="true">2W</div>
@@ -33,15 +31,13 @@
         </nav>
     </div>
 
-    <div class="hero" id="top" role="banner">
+    <div class="hero">
         <div class="container hero-wrap">
             <div>
                 <p class="eyebrow">BARBER — BIENNE</p>
-                <!-- Un seul H1 sur la page -->
                 <h1>Ancien basketteur pro en Suisse — aujourd’hui barber indépendant à Bienne.</h1>
-                <p class="sub">
-                    Walk-ins bienvenus — DM pour réserver.
-                </p>
+                <p class="sub">Walk-ins bienvenus — DM pour réserver.</p>
+
                 <div class="cta">
                     <a class="btn primary" href="https://www.instagram.com/2wavy.cuts/" target="_blank" rel="noopener" aria-label="Réserver via Instagram">Book now</a>
                     <a class="badge" href="#prices">Voir les tarifs</a>
@@ -49,7 +45,7 @@
             </div>
 
             <figure class="hero-img">
-                <img src="./img/olo.jpeg"  />
+                <img src="./img/olo.jpeg" alt="Barber 2Wavy Cuts à Bienne" />
             </figure>
         </div>
     </div>
@@ -59,7 +55,7 @@
     <section id="services" aria-labelledby="services-titre">
         <div class="container">
             <h2 id="services-titre" class="title">À propos & services</h2>
-            <p class="subtle">Fresh fades, Clean beards, Sharp lines.Fades précis, line-ups au millimètre, beard trim & razor shave.</p>
+            <p class="subtle">Fresh fades, Clean beards, Sharp lines. Fades précis, line-ups au millimètre, beard trim & razor shave.</p>
 
             <div class="grid grid-3">
                 <article class="card">
@@ -90,7 +86,7 @@
         <div class="container">
             <h2 id="prices-titre" class="title">Tarifs</h2>
 
-            <ul class="price-list" role="list">
+            <ul class="price-list">
                 <li class="price-row"><span>Haircut / Fade</span><em aria-hidden="true">–</em><strong>20.–</strong></li>
                 <li class="price-row"><span>Haircut + Beard Trim</span><em aria-hidden="true">–</em><strong>30.–</strong></li>
                 <li class="price-row"><span>Beard</span><em aria-hidden="true">–</em><strong>15.–</strong></li>
@@ -104,17 +100,18 @@
         <div class="container">
             <h2 id="gallery-titre" class="title">Galerie</h2>
 
-            <div class="gallery" role="list">
+            <div class="gallery">
                 <img src="./img/Image.jpeg" alt="Coupe / fade 1" loading="lazy">
                 <img src="./img/Image%20(1).jpeg" alt="Coupe / fade 2" loading="lazy">
                 <img src="./img/Image%20(2).jpeg" alt="Barbe 1" loading="lazy">
-                </div>
+            </div>
         </div>
     </section>
 
     <section id="reviews" aria-labelledby="reviews-titre">
         <div class="container">
             <h2 id="reviews-titre" class="title">Avis</h2>
+
             <div class="reviews">
                 <article class="card">
                     <strong aria-label="5 étoiles">★★★★★</strong>
@@ -153,12 +150,29 @@
             </div>
         </div>
     </section>
+
+    <!-- ✅ Partie du bas (sans JS) -->
+    <section id="booking" aria-labelledby="booking-titre">
+        <div class="container">
+            <h2 id="booking-titre" class="title">Réserver</h2>
+            <p class="subtle">Réservation rapide via Instagram ou WhatsApp. Walk-ins bienvenus selon disponibilité.</p>
+
+            <div class="cta">
+                <a class="btn primary" href="https://www.instagram.com/2wavy.cuts/" target="_blank" rel="noopener">Réserver sur Instagram</a>
+                <a class="badge" href="https://wa.me/41764795001" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+            </div>
+        </div>
+    </section>
 </main>
 
+<footer>
+    <div class="container footer-flex">
+        <p>© 2025 2Wavy Cuts</p>
+        <p>
+            <a href="#top">Retour en haut</a>
+        </p>
+    </div>
+</footer>
 
-<script>
-    // Année auto
-    document.getElementById('annee').textContent = new Date().getFullYear();
-</script>
 </body>
 </html>
