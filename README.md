@@ -105,7 +105,8 @@ Reformulation et amélioration des contenus textuels
 
 ### Utilisation détaillée
 - Contenu généré avec l’IA : 
-- Génération d’exemples de code adaptés ensuite personnellement 
+- Structurer le code, propreté du code
+- Génération d’exemples de code adaptés ensuite personnalisé
 - Reformulation et amélioration du contenu textuel 
 - Aide méthodologique et pédagogique
 - Explication et adaptation personnelle du code généré
@@ -127,9 +128,10 @@ Reformulation et amélioration des contenus textuels
 - Tester et valider un site web
 
 ### Difficultés rencontrées
-- Gestion du responsive design
+- Le design
 - Positionnement des éléments en CSS
 - Choix des couleurs et du design
+- L'apprentissage avec openclasseroom seul pas évident
 
 ### Réussites et fiertés
 - Avoir un site fonctionnel et cohérent
@@ -138,6 +140,6 @@ Reformulation et amélioration des contenus textuels
 
 ### Améliorations possibles
 - Ajout d’un formulaire de réservation en ligne
-- Animations CSS ou JavaScript
+- Animations 
 - Intégration d’une carte Google Maps
 - Amélioration du référencement (SEO)
