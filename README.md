@@ -105,7 +105,7 @@ Reformulation et amélioration des contenus textuels
 
 ### Utilisation détaillée
 - Contenu généré avec l’IA : 
-- Structurer le code, propreté du code
+- Code initial envoyé ensuite corriger , structurer le code, propreté du code, ajout des remarques automatiques 
 - Génération d’exemples de code adaptés ensuite personnalisé
 - Reformulation et amélioration du contenu textuel 
 - Aide méthodologique et pédagogique
